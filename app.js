@@ -15,7 +15,7 @@ app.use(cookieParser());
 // CORS MIDDLEWARE
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://power-hack-client-omega.vercel.app/login"],
+    origin: ["http://localhost:3000", "https://power-hack-client-omega.vercel.app"],
     credentials: true,
   })
 );
